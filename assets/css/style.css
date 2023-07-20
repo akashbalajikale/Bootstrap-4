@@ -27,6 +27,7 @@
     object-fit: cover;
 }
 
+
 /*==================== carousel css================================== */
 
  .mainSlider .carousel-item{
@@ -42,3 +43,57 @@
         bottom: auto;
         top: 25%;
 }
+
+
+
+
+.paralyx{
+    /* background-image:linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/lights.jpg); */
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+} 
+ 
+.paralyx::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+/*  ========== video section css */
+.paralyx.home{
+    background-image: url( ../images/lights.jpg);
+    
+}
+.paralyx.video{
+    background-image: url( ../images/media.jpg);
+    
+}
+
+
+/* ========== gallery css ================== */
+
+.homeGallery a{
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+}
+.homeGallery a > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.futr{
+    background-color: #000;
+}
+ 
+
