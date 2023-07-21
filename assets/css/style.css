@@ -114,5 +114,7 @@
 
 .tmslider .item img{
     width: 80% !important;
-    margin: 0 auto;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
 }
