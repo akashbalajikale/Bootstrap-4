@@ -13,7 +13,8 @@ $('.tmslider').owlCarousel({
             items : 3
         },
         1100 : {
-            items :4
+            items :4,
+            margin : 20
         }
     }
 })
