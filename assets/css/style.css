@@ -97,3 +97,22 @@
 }
  
 
+/* ===================== about us testimonial css  ================*/
+
+.owl-nav {
+    position: absolute;
+    top: 21%;
+    left: -3%;
+    width: 104%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+/* .tmslider .item{
+    text-align: justify;
+} */
+
+.tmslider .item img{
+    width: 80% !important;
+    margin: 0 auto;
+}
